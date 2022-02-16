@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://romantic-bell-fcc1fb.netlify.app/'
+        origin: '*'
     })
 );
 app.options('*', cors());
